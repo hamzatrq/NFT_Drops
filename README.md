@@ -4,7 +4,7 @@
 ### To run the frontend:
 > yarn run dev
 
-### To recomplie and deploy on rinkey:
+### To recomplie and deploy on rinkeby:
 > truffle migrate --network rinkeby
 
 Note: After the contract is deployed please update the smart contract address in src/main.ts file
