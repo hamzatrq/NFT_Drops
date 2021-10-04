@@ -3,6 +3,7 @@ import { ethers } from "ethers";
 import ABI from '../build/contracts/WebaverseNFT.json';
 
 window.onload = async () => {
+    await window.ethereum.enable();
     const contractAddress = "0x6B2b44aE5cb9F23dFF68C998eC12d56b6B35DAe8";
     const provider = new ethers.providers.Web3Provider((window as any).ethereum)
     const signer = provider.getSigner()
