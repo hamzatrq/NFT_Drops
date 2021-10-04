@@ -7,6 +7,8 @@
 ### To recomplie and deploy on rinkeby:
 > truffle migrate --network rinkeby
 
+Add your secret mnemonic to a .secret file in the root directory.
+
 Note: After the contract is deployed please update the smart contract address in src/main.ts file
 
 
