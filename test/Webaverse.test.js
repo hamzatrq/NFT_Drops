@@ -64,7 +64,6 @@ describe("Claim", async function () {
                 claimerContract,
                 externalSignerContract,
             } = await deploy();
-            console.log("Masla batao");
             const claimableVoucher = new ClaimableVoucher({
                 contract: signerContract,
                 signer: signer,
