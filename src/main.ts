@@ -1,6 +1,6 @@
 const { ClaimableVoucher } = require('../lib')
 import { ethers } from "ethers";
-import ABI from '../build/contracts/WebaverseNFT.json';
+import ABI from '../build/contracts/Webaverse.json';
 
 window.onload = async () => {
     await window.ethereum.enable();
