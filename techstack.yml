@@ -2,7 +2,7 @@ repo_name: hamzatrq/NFT_Drops
 report_id: f0024a1ac3fd9bd5ecf18143e856f88f
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:11:24+00:00'
+timestamp: '2024-02-29T19:23:27+00:00'
 requested_by: hamzatrq
 provider: github
 branch: main
@@ -82,7 +82,7 @@ tools:
   last_updated_by: taurus-77
   last_updated_on: 2021-10-04 05:39:05.000000000 Z
 - name: TRUFFLE
-  description: 'A development environment for Ethereum '
+  description: A development environment for Ethereum
   website_url: https://www.trufflesuite.com/truffle
   license: MIT
   open_source: true
